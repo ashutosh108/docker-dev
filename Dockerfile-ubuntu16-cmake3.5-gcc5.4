@@ -16,3 +16,4 @@ RUN useradd -m dev \
 	&& echo "%sudo ALL=NOPASSWD: ALL" >> /etc/sudoers
 
 CMD ["/bin/su", "-", "dev"]
+# vim: syntax=Dockerfile
